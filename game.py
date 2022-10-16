@@ -1,5 +1,3 @@
-
-
 def map():
     global current_position
     print(
@@ -10,7 +8,6 @@ def map():
     print("------------")
     print(
         f" {current_position[6]}  |  {current_position[7]}  |  {current_position[8]}  \n")
-
 
 position_user_1 = []
 position_user_2 = []
