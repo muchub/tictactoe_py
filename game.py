@@ -55,13 +55,13 @@ while True:
         for i in range(8):
             cnt1 = 0
             cnt2 = 0
-            for k in range(len(position_user_1)):
-                if(position_user_1[k] in win_condition[i]):
+            for j in range(len(position_user_1)):
+                if(position_user_1[j] in win_condition[i]):
                     cnt1 = cnt1 + 1
                     if cnt1 == 3:
                         winner = "X"
-            for k in range(len(position_user_2)):
-                if(position_user_2[k] in win_condition[i]):
+            for j in range(len(position_user_2)):
+                if(position_user_2[j] in win_condition[i]):
                     cnt2 = cnt2 + 1
                     if cnt2 == 3:
                         winner = "O"
