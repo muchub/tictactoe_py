@@ -57,11 +57,11 @@ while True:
             cnt2 = 0
             for j in range(len(position_user_1)):
                 if(position_user_1[j] in win_condition[i]):
-                    cnt1 = cnt1 + 1
+                    cnt1 += 1
                     if cnt1 == 3:
                         winner = "X"
             for j in range(len(position_user_2)):
                 if(position_user_2[j] in win_condition[i]):
-                    cnt2 = cnt2 + 1
+                    cnt2 += 1
                     if cnt2 == 3:
                         winner = "O"
