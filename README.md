@@ -22,4 +22,4 @@ The code consists of a `map()` function to display the current state of the game
 To run the game:
 
 ```bash
-python tic_tac_toe.py
+python game.py
